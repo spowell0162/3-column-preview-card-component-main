@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/Screenshot_3-column preview card component.png)
+![Screenshot](images/screenshot_3-column_preview_card_component.png)
 
 ### Links
 
