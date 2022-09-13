@@ -1,0 +1,91 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* General styling */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+html {
+    font-size: 15px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.75rem;
+}
+
+/* Design */
+
+.container {
+    width: 250px;
+    margin: 20px;
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.block-1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1em 1em 0 0;
+}
+
+.block-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.block-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 1em 1em;
+}
+
+button {
+    width: 50%;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 1rem;
+    border: none;
+    border-radius: 100px;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.button-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    display: none;
+}
