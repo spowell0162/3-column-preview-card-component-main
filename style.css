@@ -3,51 +3,41 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* General styling */
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 html {
     font-size: 15px;
 }
 
-h2 {
-    font-family: 'Big Shoulders Display', cursive;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: hsl(0, 0%, 95%);
-    font-size: 2rem;
-}
-
-p {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    color: hsla(0, 0%, 100%, 0.75);
-    font-size: 0.75rem;
-}
-
 /* Design */
 
 .container {
     width: 250px;
-    margin: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .block {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    gap: 1rem;
+    justify-content: space-between;
+    padding: 2.25rem;
+    gap: 1.25rem;
 }
 
 .block-1 {
@@ -64,11 +54,35 @@ p {
     border-radius: 0 0 1em 1em;
 }
 
+.icon-container {
+    width: 25%;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+}
+
 button {
-    width: 50%;
+    width: 60%;
     background-color: hsl(0, 0%, 95%);
-    font-size: 1rem;
-    border: none;
+    font-size: 0.75rem;
+    border: 2px hsl(0, 0%, 95%) solid;
     border-radius: 100px;
     padding: 0.75rem;
     text-align: center;
@@ -88,4 +102,65 @@ button {
 
 .attribution {
     display: none;
+}
+
+/* Active states */
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.button-1:active {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.button-2:active {
+    background-color: hsl(184, 100%, 22%);
+}
+.button-3:active {
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* Desktop */
+
+@media (min-width: 900px) {
+
+    .container {
+        flex-direction: row;
+        align-items: stretch;
+        width: 900px;
+    }
+
+    .block {
+        gap: 1.75rem;
+        padding: 3rem;
+    }
+
+    .block-1 {
+        border-radius: 1em 0 0 1em;
+    }
+
+    .block-3 {
+        border-radius: 0 1em 1em 0;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        margin-bottom: 40px;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 1rem;
+    }
 }
