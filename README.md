@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/3column-preview-card-using-flexbox-jY37rUtw1i)
 - Live Site URL: (https://three-column-preview-card-component-main.pages.dev/)
 
 ## My process
