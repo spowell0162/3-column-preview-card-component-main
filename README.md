@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](images/screenshot_3-column_preview_card_component.png)
+![Screenshot of the three column preview card.](images/screenshot_3-column_preview_card_component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://three-column-preview-card-component-main.pages.dev/)
 
 ## My process
 
